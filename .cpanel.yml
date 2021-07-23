@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u1442470/public_html/pedagangsolusi.online/erp/tes
+    - /bin/cp -R * $DEPLOYPATH
